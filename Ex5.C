@@ -14,7 +14,7 @@ int main() {
     totalReais = 10000000.0 * dolar;         
     custoCasa = 150.0 * salarioMinimo;       
 
-    casas = (long long)(totalReais / custoCasa); // pega apenas a parte inteira
+    casas = (long long)(totalReais / custoCasa); 
 
     printf("Quantidade de casas possiveis = %lld\n", casas);
 
