@@ -11,8 +11,8 @@ int main() {
     printf("Digite o valor do dolar do dia (R$): ");
     scanf("%lf", &dolar);
 
-    totalReais = 10000000.0 * dolar;         // 10 milhoes de dolares convertidos
-    custoCasa = 150.0 * salarioMinimo;       // cada casa custa 150 salarios minimos
+    totalReais = 10000000.0 * dolar;         
+    custoCasa = 150.0 * salarioMinimo;       
 
     casas = (long long)(totalReais / custoCasa); // pega apenas a parte inteira
 
